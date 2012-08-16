@@ -7,6 +7,7 @@ OUTPUT_CSS_FILE=$BOOTSTRAP/css/bootstrap.css
 OUTPUT_FOLDER=$BOOTSTRAP/../hub/bootstrap
 
 echo Compiling $BASE_LESS_FILE
+mkdir -p $(dirname $OUTPUT_CSS_FILE)
 lessc $BASE_LESS_FILE > $OUTPUT_CSS_FILE
 
 echo Copying over to $OUTPUT_FOLDER
