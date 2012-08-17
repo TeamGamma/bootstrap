@@ -2,13 +2,11 @@
 set -e
 
 BOOTSTRAP=$(dirname $0)
-BASE_LESS_FILE=$BOOTSTRAP/less/bootstrap.less
-OUTPUT_CSS_FILE=$BOOTSTRAP/css/bootstrap.css
+BASE_LESS_FILE=$BOOTSTRAP/less/bootstrap-rewardsden.less
 OUTPUT_FOLDER=$BOOTSTRAP/../hub/bootstrap
 
 echo Compiling $BASE_LESS_FILE
-mkdir -p $(dirname $OUTPUT_CSS_FILE)
-lessc $BASE_LESS_FILE > $OUTPUT_CSS_FILE
+lessc $BASE_LESS_FILE > $BOOTSTRAP/css/bootstrap.css
 
 echo Copying over to $OUTPUT_FOLDER
 mkdir -p $OUTPUT_FOLDER/css $OUTPUT_FOLDER/img $OUTPUT_FOLDER/js
