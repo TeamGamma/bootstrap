@@ -4211,76 +4211,76 @@
 .rewardsden_bootstrap .invisible {
   visibility: hidden;
 }
-.rewardsden_bootstrap .rewardsden_bootstrap .hidden {
+.rewardsden_bootstrap .hidden {
   display: none;
   visibility: hidden;
 }
-.rewardsden_bootstrap .rewardsden_bootstrap .visible-phone {
+.rewardsden_bootstrap .visible-phone {
   display: none !important;
 }
-.rewardsden_bootstrap .rewardsden_bootstrap .visible-tablet {
+.rewardsden_bootstrap .visible-tablet {
   display: none !important;
 }
-.rewardsden_bootstrap .rewardsden_bootstrap .hidden-desktop {
+.rewardsden_bootstrap .hidden-desktop {
   display: none !important;
 }
 @media (max-width: 767px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .visible-phone {
+  .rewardsden_bootstrap .visible-phone {
     display: inherit !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .hidden-phone {
+  .rewardsden_bootstrap .hidden-phone {
     display: none !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .hidden-desktop {
+  .rewardsden_bootstrap .hidden-desktop {
     display: inherit !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .visible-desktop {
+  .rewardsden_bootstrap .visible-desktop {
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .visible-tablet {
+  .rewardsden_bootstrap .visible-tablet {
     display: inherit !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .hidden-tablet {
+  .rewardsden_bootstrap .hidden-tablet {
     display: none !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .hidden-desktop {
+  .rewardsden_bootstrap .hidden-desktop {
     display: inherit !important;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .visible-desktop {
+  .rewardsden_bootstrap .visible-desktop {
     display: none !important ;
   }
 }
 @media (max-width: 480px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse {
+  .rewardsden_bootstrap .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .page-header h1 small {
+  .rewardsden_bootstrap .page-header h1 small {
     display: block;
     line-height: 18px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input[type="checkbox"],
-  .rewardsden_bootstrap .rewardsden_bootstrap input[type="radio"] {
+  .rewardsden_bootstrap input[type="checkbox"],
+  .rewardsden_bootstrap input[type="radio"] {
     border: 1px solid #ccc;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .form-horizontal .control-group > label {
+  .rewardsden_bootstrap .form-horizontal .control-group > label {
     float: none;
     width: auto;
     padding-top: 0;
     text-align: left;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .form-horizontal .controls {
+  .rewardsden_bootstrap .form-horizontal .controls {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .form-horizontal .control-list {
+  .rewardsden_bootstrap .form-horizontal .control-list {
     padding-top: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .form-horizontal .form-actions {
+  .rewardsden_bootstrap .form-horizontal .form-actions {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .modal {
+  .rewardsden_bootstrap .modal {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -4288,63 +4288,63 @@
     width: auto;
     margin: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .modal.fade.in {
+  .rewardsden_bootstrap .modal.fade.in {
     top: auto;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .modal-header .close {
+  .rewardsden_bootstrap .modal-header .close {
     padding: 10px;
     margin: -10px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .carousel-caption {
+  .rewardsden_bootstrap .carousel-caption {
     position: static;
   }
 }
 @media (max-width: 767px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap body {
+  .rewardsden_bootstrap body {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom {
+  .rewardsden_bootstrap .navbar-fixed-top,
+  .rewardsden_bootstrap .navbar-fixed-bottom {
     margin-left: -20px;
     margin-right: -20px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .container-fluid {
+  .rewardsden_bootstrap .container-fluid {
     padding: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .dl-horizontal dt {
+  .rewardsden_bootstrap .dl-horizontal dt {
     float: none;
     clear: none;
     width: auto;
     text-align: left;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .dl-horizontal dd {
+  .rewardsden_bootstrap .dl-horizontal dd {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .container {
+  .rewardsden_bootstrap .container {
     width: auto;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid {
+  .rewardsden_bootstrap .row-fluid {
     width: 100%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row,
-  .rewardsden_bootstrap .rewardsden_bootstrap .thumbnails {
+  .rewardsden_bootstrap .row,
+  .rewardsden_bootstrap .thumbnails {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap [class*="span"],
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid [class*="span"] {
+  .rewardsden_bootstrap [class*="span"],
+  .rewardsden_bootstrap .row-fluid [class*="span"] {
     float: none;
     display: block;
     width: auto;
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-large,
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-xlarge,
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-xxlarge,
-  .rewardsden_bootstrap .rewardsden_bootstrap input[class*="span"],
-  .rewardsden_bootstrap .rewardsden_bootstrap select[class*="span"],
-  .rewardsden_bootstrap .rewardsden_bootstrap textarea[class*="span"],
-  .rewardsden_bootstrap .rewardsden_bootstrap .uneditable-input {
+  .rewardsden_bootstrap .input-large,
+  .rewardsden_bootstrap .input-xlarge,
+  .rewardsden_bootstrap .input-xxlarge,
+  .rewardsden_bootstrap input[class*="span"],
+  .rewardsden_bootstrap select[class*="span"],
+  .rewardsden_bootstrap textarea[class*="span"],
+  .rewardsden_bootstrap .uneditable-input {
     display: block;
     width: 100%;
     min-height: 28px;
@@ -4353,121 +4353,121 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-prepend input,
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-append input,
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-prepend input[class*="span"],
-  .rewardsden_bootstrap .rewardsden_bootstrap .input-append input[class*="span"] {
+  .rewardsden_bootstrap .input-prepend input,
+  .rewardsden_bootstrap .input-append input,
+  .rewardsden_bootstrap .input-prepend input[class*="span"],
+  .rewardsden_bootstrap .input-append input[class*="span"] {
     display: inline-block;
     width: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .row {
+  .rewardsden_bootstrap .row {
     margin-left: -20px;
     *zoom: 1;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:before,
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:after {
+  .rewardsden_bootstrap .row:before,
+  .rewardsden_bootstrap .row:after {
     display: table;
     content: "";
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:after {
+  .rewardsden_bootstrap .row:after {
     clear: both;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap [class*="span"] {
+  .rewardsden_bootstrap [class*="span"] {
     float: left;
     margin-left: 20px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .container,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top .container,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom .container {
+  .rewardsden_bootstrap .container,
+  .rewardsden_bootstrap .navbar-fixed-top .container,
+  .rewardsden_bootstrap .navbar-fixed-bottom .container {
     width: 724px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span12 {
+  .rewardsden_bootstrap .span12 {
     width: 724px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span11 {
+  .rewardsden_bootstrap .span11 {
     width: 662px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span10 {
+  .rewardsden_bootstrap .span10 {
     width: 600px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span9 {
+  .rewardsden_bootstrap .span9 {
     width: 538px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span8 {
+  .rewardsden_bootstrap .span8 {
     width: 476px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span7 {
+  .rewardsden_bootstrap .span7 {
     width: 414px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span6 {
+  .rewardsden_bootstrap .span6 {
     width: 352px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span5 {
+  .rewardsden_bootstrap .span5 {
     width: 290px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span4 {
+  .rewardsden_bootstrap .span4 {
     width: 228px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span3 {
+  .rewardsden_bootstrap .span3 {
     width: 166px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span2 {
+  .rewardsden_bootstrap .span2 {
     width: 104px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span1 {
+  .rewardsden_bootstrap .span1 {
     width: 42px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset12 {
+  .rewardsden_bootstrap .offset12 {
     margin-left: 764px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset11 {
+  .rewardsden_bootstrap .offset11 {
     margin-left: 702px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset10 {
+  .rewardsden_bootstrap .offset10 {
     margin-left: 640px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset9 {
+  .rewardsden_bootstrap .offset9 {
     margin-left: 578px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset8 {
+  .rewardsden_bootstrap .offset8 {
     margin-left: 516px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset7 {
+  .rewardsden_bootstrap .offset7 {
     margin-left: 454px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset6 {
+  .rewardsden_bootstrap .offset6 {
     margin-left: 392px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset5 {
+  .rewardsden_bootstrap .offset5 {
     margin-left: 330px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset4 {
+  .rewardsden_bootstrap .offset4 {
     margin-left: 268px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset3 {
+  .rewardsden_bootstrap .offset3 {
     margin-left: 206px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset2 {
+  .rewardsden_bootstrap .offset2 {
     margin-left: 144px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset1 {
+  .rewardsden_bootstrap .offset1 {
     margin-left: 82px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid {
+  .rewardsden_bootstrap .row-fluid {
     width: 100%;
     *zoom: 1;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:before,
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:after {
+  .rewardsden_bootstrap .row-fluid:before,
+  .rewardsden_bootstrap .row-fluid:after {
     display: table;
     content: "";
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:after {
+  .rewardsden_bootstrap .row-fluid:after {
     clear: both;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid [class*="span"] {
+  .rewardsden_bootstrap .row-fluid [class*="span"] {
     display: block;
     width: 100%;
     min-height: 28px;
@@ -4479,206 +4479,206 @@
     margin-left: 2.762430939%;
     *margin-left: 2.709239449638298%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid [class*="span"]:first-child {
+  .rewardsden_bootstrap .row-fluid [class*="span"]:first-child {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span12 {
+  .rewardsden_bootstrap .row-fluid .span12 {
     width: 99.999999993%;
     *width: 99.9468085036383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span11 {
+  .rewardsden_bootstrap .row-fluid .span11 {
     width: 91.436464082%;
     *width: 91.38327259263829%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span10 {
+  .rewardsden_bootstrap .row-fluid .span10 {
     width: 82.87292817100001%;
     *width: 82.8197366816383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span9 {
+  .rewardsden_bootstrap .row-fluid .span9 {
     width: 74.30939226%;
     *width: 74.25620077063829%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span8 {
+  .rewardsden_bootstrap .row-fluid .span8 {
     width: 65.74585634900001%;
     *width: 65.6926648596383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span7 {
+  .rewardsden_bootstrap .row-fluid .span7 {
     width: 57.182320438000005%;
     *width: 57.129128948638304%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span6 {
+  .rewardsden_bootstrap .row-fluid .span6 {
     width: 48.618784527%;
     *width: 48.5655930376383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span5 {
+  .rewardsden_bootstrap .row-fluid .span5 {
     width: 40.055248616%;
     *width: 40.0020571266383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span4 {
+  .rewardsden_bootstrap .row-fluid .span4 {
     width: 31.491712705%;
     *width: 31.4385212156383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span3 {
+  .rewardsden_bootstrap .row-fluid .span3 {
     width: 22.928176794%;
     *width: 22.874985304638297%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span2 {
+  .rewardsden_bootstrap .row-fluid .span2 {
     width: 14.364640883%;
     *width: 14.311449393638298%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span1 {
+  .rewardsden_bootstrap .row-fluid .span1 {
     width: 5.801104972%;
     *width: 5.747913482638298%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input,
-  .rewardsden_bootstrap .rewardsden_bootstrap textarea,
-  .rewardsden_bootstrap .rewardsden_bootstrap .uneditable-input {
+  .rewardsden_bootstrap input,
+  .rewardsden_bootstrap textarea,
+  .rewardsden_bootstrap .uneditable-input {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span12, textarea.span12, .uneditable-input.span12 {
+  .rewardsden_bootstrap input.span12, textarea.span12, .uneditable-input.span12 {
     width: 714px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span11, textarea.span11, .uneditable-input.span11 {
+  .rewardsden_bootstrap input.span11, textarea.span11, .uneditable-input.span11 {
     width: 652px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span10, textarea.span10, .uneditable-input.span10 {
+  .rewardsden_bootstrap input.span10, textarea.span10, .uneditable-input.span10 {
     width: 590px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span9, textarea.span9, .uneditable-input.span9 {
+  .rewardsden_bootstrap input.span9, textarea.span9, .uneditable-input.span9 {
     width: 528px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span8, textarea.span8, .uneditable-input.span8 {
+  .rewardsden_bootstrap input.span8, textarea.span8, .uneditable-input.span8 {
     width: 466px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span7, textarea.span7, .uneditable-input.span7 {
+  .rewardsden_bootstrap input.span7, textarea.span7, .uneditable-input.span7 {
     width: 404px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span6, textarea.span6, .uneditable-input.span6 {
+  .rewardsden_bootstrap input.span6, textarea.span6, .uneditable-input.span6 {
     width: 342px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span5, textarea.span5, .uneditable-input.span5 {
+  .rewardsden_bootstrap input.span5, textarea.span5, .uneditable-input.span5 {
     width: 280px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span4, textarea.span4, .uneditable-input.span4 {
+  .rewardsden_bootstrap input.span4, textarea.span4, .uneditable-input.span4 {
     width: 218px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span3, textarea.span3, .uneditable-input.span3 {
+  .rewardsden_bootstrap input.span3, textarea.span3, .uneditable-input.span3 {
     width: 156px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span2, textarea.span2, .uneditable-input.span2 {
+  .rewardsden_bootstrap input.span2, textarea.span2, .uneditable-input.span2 {
     width: 94px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span1, textarea.span1, .uneditable-input.span1 {
+  .rewardsden_bootstrap input.span1, textarea.span1, .uneditable-input.span1 {
     width: 32px;
   }
 }
 @media (min-width: 1200px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .row {
+  .rewardsden_bootstrap .row {
     margin-left: -30px;
     *zoom: 1;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:before,
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:after {
+  .rewardsden_bootstrap .row:before,
+  .rewardsden_bootstrap .row:after {
     display: table;
     content: "";
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row:after {
+  .rewardsden_bootstrap .row:after {
     clear: both;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap [class*="span"] {
+  .rewardsden_bootstrap [class*="span"] {
     float: left;
     margin-left: 30px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .container,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top .container,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom .container {
+  .rewardsden_bootstrap .container,
+  .rewardsden_bootstrap .navbar-fixed-top .container,
+  .rewardsden_bootstrap .navbar-fixed-bottom .container {
     width: 1170px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span12 {
+  .rewardsden_bootstrap .span12 {
     width: 1170px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span11 {
+  .rewardsden_bootstrap .span11 {
     width: 1070px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span10 {
+  .rewardsden_bootstrap .span10 {
     width: 970px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span9 {
+  .rewardsden_bootstrap .span9 {
     width: 870px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span8 {
+  .rewardsden_bootstrap .span8 {
     width: 770px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span7 {
+  .rewardsden_bootstrap .span7 {
     width: 670px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span6 {
+  .rewardsden_bootstrap .span6 {
     width: 570px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span5 {
+  .rewardsden_bootstrap .span5 {
     width: 470px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span4 {
+  .rewardsden_bootstrap .span4 {
     width: 370px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span3 {
+  .rewardsden_bootstrap .span3 {
     width: 270px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span2 {
+  .rewardsden_bootstrap .span2 {
     width: 170px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .span1 {
+  .rewardsden_bootstrap .span1 {
     width: 70px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset12 {
+  .rewardsden_bootstrap .offset12 {
     margin-left: 1230px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset11 {
+  .rewardsden_bootstrap .offset11 {
     margin-left: 1130px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset10 {
+  .rewardsden_bootstrap .offset10 {
     margin-left: 1030px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset9 {
+  .rewardsden_bootstrap .offset9 {
     margin-left: 930px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset8 {
+  .rewardsden_bootstrap .offset8 {
     margin-left: 830px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset7 {
+  .rewardsden_bootstrap .offset7 {
     margin-left: 730px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset6 {
+  .rewardsden_bootstrap .offset6 {
     margin-left: 630px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset5 {
+  .rewardsden_bootstrap .offset5 {
     margin-left: 530px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset4 {
+  .rewardsden_bootstrap .offset4 {
     margin-left: 430px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset3 {
+  .rewardsden_bootstrap .offset3 {
     margin-left: 330px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset2 {
+  .rewardsden_bootstrap .offset2 {
     margin-left: 230px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .offset1 {
+  .rewardsden_bootstrap .offset1 {
     margin-left: 130px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid {
+  .rewardsden_bootstrap .row-fluid {
     width: 100%;
     *zoom: 1;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:before,
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:after {
+  .rewardsden_bootstrap .row-fluid:before,
+  .rewardsden_bootstrap .row-fluid:after {
     display: table;
     content: "";
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid:after {
+  .rewardsden_bootstrap .row-fluid:after {
     clear: both;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid [class*="span"] {
+  .rewardsden_bootstrap .row-fluid [class*="span"] {
     display: block;
     width: 100%;
     min-height: 28px;
@@ -4690,157 +4690,157 @@
     margin-left: 2.564102564%;
     *margin-left: 2.510911074638298%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid [class*="span"]:first-child {
+  .rewardsden_bootstrap .row-fluid [class*="span"]:first-child {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span12 {
+  .rewardsden_bootstrap .row-fluid .span12 {
     width: 100%;
     *width: 99.94680851063829%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span11 {
+  .rewardsden_bootstrap .row-fluid .span11 {
     width: 91.45299145300001%;
     *width: 91.3997999636383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span10 {
+  .rewardsden_bootstrap .row-fluid .span10 {
     width: 82.905982906%;
     *width: 82.8527914166383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span9 {
+  .rewardsden_bootstrap .row-fluid .span9 {
     width: 74.358974359%;
     *width: 74.30578286963829%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span8 {
+  .rewardsden_bootstrap .row-fluid .span8 {
     width: 65.81196581200001%;
     *width: 65.7587743226383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span7 {
+  .rewardsden_bootstrap .row-fluid .span7 {
     width: 57.264957265%;
     *width: 57.2117657756383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span6 {
+  .rewardsden_bootstrap .row-fluid .span6 {
     width: 48.717948718%;
     *width: 48.6647572286383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span5 {
+  .rewardsden_bootstrap .row-fluid .span5 {
     width: 40.170940171000005%;
     *width: 40.117748681638304%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span4 {
+  .rewardsden_bootstrap .row-fluid .span4 {
     width: 31.623931624%;
     *width: 31.5707401346383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span3 {
+  .rewardsden_bootstrap .row-fluid .span3 {
     width: 23.076923077%;
     *width: 23.0237315876383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span2 {
+  .rewardsden_bootstrap .row-fluid .span2 {
     width: 14.529914530000001%;
     *width: 14.4767230406383%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .span1 {
+  .rewardsden_bootstrap .row-fluid .span1 {
     width: 5.982905983%;
     *width: 5.929714493638298%;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input,
-  .rewardsden_bootstrap .rewardsden_bootstrap textarea,
-  .rewardsden_bootstrap .rewardsden_bootstrap .uneditable-input {
+  .rewardsden_bootstrap input,
+  .rewardsden_bootstrap textarea,
+  .rewardsden_bootstrap .uneditable-input {
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span12, textarea.span12, .uneditable-input.span12 {
+  .rewardsden_bootstrap input.span12, textarea.span12, .uneditable-input.span12 {
     width: 1160px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span11, textarea.span11, .uneditable-input.span11 {
+  .rewardsden_bootstrap input.span11, textarea.span11, .uneditable-input.span11 {
     width: 1060px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span10, textarea.span10, .uneditable-input.span10 {
+  .rewardsden_bootstrap input.span10, textarea.span10, .uneditable-input.span10 {
     width: 960px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span9, textarea.span9, .uneditable-input.span9 {
+  .rewardsden_bootstrap input.span9, textarea.span9, .uneditable-input.span9 {
     width: 860px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span8, textarea.span8, .uneditable-input.span8 {
+  .rewardsden_bootstrap input.span8, textarea.span8, .uneditable-input.span8 {
     width: 760px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span7, textarea.span7, .uneditable-input.span7 {
+  .rewardsden_bootstrap input.span7, textarea.span7, .uneditable-input.span7 {
     width: 660px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span6, textarea.span6, .uneditable-input.span6 {
+  .rewardsden_bootstrap input.span6, textarea.span6, .uneditable-input.span6 {
     width: 560px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span5, textarea.span5, .uneditable-input.span5 {
+  .rewardsden_bootstrap input.span5, textarea.span5, .uneditable-input.span5 {
     width: 460px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span4, textarea.span4, .uneditable-input.span4 {
+  .rewardsden_bootstrap input.span4, textarea.span4, .uneditable-input.span4 {
     width: 360px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span3, textarea.span3, .uneditable-input.span3 {
+  .rewardsden_bootstrap input.span3, textarea.span3, .uneditable-input.span3 {
     width: 260px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span2, textarea.span2, .uneditable-input.span2 {
+  .rewardsden_bootstrap input.span2, textarea.span2, .uneditable-input.span2 {
     width: 160px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap input.span1, textarea.span1, .uneditable-input.span1 {
+  .rewardsden_bootstrap input.span1, textarea.span1, .uneditable-input.span1 {
     width: 60px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .thumbnails {
+  .rewardsden_bootstrap .thumbnails {
     margin-left: -30px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .thumbnails > li {
+  .rewardsden_bootstrap .thumbnails > li {
     margin-left: 30px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .row-fluid .thumbnails {
+  .rewardsden_bootstrap .row-fluid .thumbnails {
     margin-left: 0;
   }
 }
 @media (max-width: 979px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap body {
+  .rewardsden_bootstrap body {
     padding-top: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom {
+  .rewardsden_bootstrap .navbar-fixed-top,
+  .rewardsden_bootstrap .navbar-fixed-bottom {
     position: static;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top {
+  .rewardsden_bootstrap .navbar-fixed-top {
     margin-bottom: 18px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom {
+  .rewardsden_bootstrap .navbar-fixed-bottom {
     margin-top: 18px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-top .navbar-inner,
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-fixed-bottom .navbar-inner {
+  .rewardsden_bootstrap .navbar-fixed-top .navbar-inner,
+  .rewardsden_bootstrap .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar .container {
+  .rewardsden_bootstrap .navbar .container {
     width: auto;
     padding: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar .brand {
+  .rewardsden_bootstrap .navbar .brand {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 0 0 -5px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse {
+  .rewardsden_bootstrap .nav-collapse {
     clear: both;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav {
+  .rewardsden_bootstrap .nav-collapse .nav {
     float: none;
     margin: 0 0 9px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav > li {
+  .rewardsden_bootstrap .nav-collapse .nav > li {
     float: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav > li > a {
+  .rewardsden_bootstrap .nav-collapse .nav > li > a {
     margin-bottom: 2px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav > .divider-vertical {
+  .rewardsden_bootstrap .nav-collapse .nav > .divider-vertical {
     display: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav .nav-header {
+  .rewardsden_bootstrap .nav-collapse .nav .nav-header {
     color: #999999;
     text-shadow: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav > li > a,
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu a {
+  .rewardsden_bootstrap .nav-collapse .nav > li > a,
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu a {
     padding: 6px 15px;
     font-weight: bold;
     color: #999999;
@@ -4848,25 +4848,25 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .btn {
+  .rewardsden_bootstrap .nav-collapse .btn {
     padding: 4px 10px 4px;
     font-weight: normal;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu li + li a {
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 2px;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .nav > li > a:hover,
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu a:hover {
+  .rewardsden_bootstrap .nav-collapse .nav > li > a:hover,
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu a:hover {
     background-color: #222222;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse.in .btn-group {
+  .rewardsden_bootstrap .nav-collapse.in .btn-group {
     margin-top: 5px;
     padding: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu {
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu {
     position: static;
     top: auto;
     left: auto;
@@ -4884,15 +4884,15 @@
     -moz-box-shadow: none;
     box-shadow: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu:before,
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu:after {
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu:before,
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu:after {
     display: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .dropdown-menu .divider {
+  .rewardsden_bootstrap .nav-collapse .dropdown-menu .divider {
     display: none;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .navbar-form,
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse .navbar-search {
+  .rewardsden_bootstrap .nav-collapse .navbar-form,
+  .rewardsden_bootstrap .nav-collapse .navbar-search {
     float: none;
     padding: 9px 15px;
     margin: 9px 0;
@@ -4902,25 +4902,25 @@
     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar .nav-collapse .nav.pull-right {
+  .rewardsden_bootstrap .navbar .nav-collapse .nav.pull-right {
     float: none;
     margin-left: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse,
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse.collapse {
+  .rewardsden_bootstrap .nav-collapse,
+  .rewardsden_bootstrap .nav-collapse.collapse {
     overflow: hidden;
     height: 0;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar .btn-navbar {
+  .rewardsden_bootstrap .navbar .btn-navbar {
     display: block;
   }
-  .rewardsden_bootstrap .rewardsden_bootstrap .navbar-static .navbar-inner {
+  .rewardsden_bootstrap .navbar-static .navbar-inner {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 @media (min-width: 980px) {
-  .rewardsden_bootstrap .rewardsden_bootstrap .nav-collapse.collapse {
+  .rewardsden_bootstrap .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
