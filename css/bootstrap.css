@@ -8,18 +8,6 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 /* Custom prefix for RewardsDen version of Twitter Bootstrap */
-.rewardsden_bootstrap {
-  /*!
- * Bootstrap Responsive v2.0.4
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
-
-}
 .rewardsden_bootstrap article,
 .rewardsden_bootstrap aside,
 .rewardsden_bootstrap details,
@@ -117,25 +105,25 @@
   overflow: auto;
   vertical-align: top;
 }
-.rewardsden_bootstrap .clearfix {
+.clearfix {
   *zoom: 1;
 }
-.rewardsden_bootstrap .clearfix:before,
-.rewardsden_bootstrap .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   display: table;
   content: "";
 }
-.rewardsden_bootstrap .clearfix:after {
+.clearfix:after {
   clear: both;
 }
-.rewardsden_bootstrap .hide-text {
+.hide-text {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
   border: 0;
 }
-.rewardsden_bootstrap .input-block-level {
+.input-block-level {
   display: block;
   width: 100%;
   min-height: 28px;
@@ -144,11 +132,11 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-.rewardsden_bootstrap body {
+.rewardsden_bootstrap {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -159,6 +147,18 @@
 .rewardsden_bootstrap a:hover {
   color: #005580;
   text-decoration: underline;
+}
+.rewardsden_bootstrap {
+  /*!
+ * Bootstrap Responsive v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
 }
 .rewardsden_bootstrap .row {
   margin-left: -20px;
@@ -355,17 +355,17 @@
   clear: both;
 }
 .rewardsden_bootstrap p {
-  margin: 0 0 9px;
+  margin: 0 0 10px;
 }
 .rewardsden_bootstrap p small {
-  font-size: 11px;
+  font-size: 12px;
   color: #999999;
 }
 .rewardsden_bootstrap .lead {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 200;
-  line-height: 27px;
+  line-height: 30px;
 }
 .rewardsden_bootstrap h1,
 .rewardsden_bootstrap h2,
@@ -390,21 +390,21 @@
 }
 .rewardsden_bootstrap h1 {
   font-size: 30px;
-  line-height: 36px;
+  line-height: 40px;
 }
 .rewardsden_bootstrap h1 small {
   font-size: 18px;
 }
 .rewardsden_bootstrap h2 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 40px;
 }
 .rewardsden_bootstrap h2 small {
   font-size: 18px;
 }
 .rewardsden_bootstrap h3 {
   font-size: 18px;
-  line-height: 27px;
+  line-height: 30px;
 }
 .rewardsden_bootstrap h3 small {
   font-size: 14px;
@@ -412,7 +412,7 @@
 .rewardsden_bootstrap h4,
 .rewardsden_bootstrap h5,
 .rewardsden_bootstrap h6 {
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap h4 {
   font-size: 14px;
@@ -429,8 +429,8 @@
   text-transform: uppercase;
 }
 .rewardsden_bootstrap .page-header {
-  padding-bottom: 17px;
-  margin: 18px 0;
+  padding-bottom: 19px;
+  margin: 20px 0;
   border-bottom: 1px solid #eeeeee;
 }
 .rewardsden_bootstrap .page-header h1 {
@@ -439,7 +439,7 @@
 .rewardsden_bootstrap ul,
 .rewardsden_bootstrap ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 10px 25px;
 }
 .rewardsden_bootstrap ul ul,
 .rewardsden_bootstrap ul ol,
@@ -454,7 +454,7 @@
   list-style: decimal;
 }
 .rewardsden_bootstrap li {
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap ul.unstyled,
 .rewardsden_bootstrap ol.unstyled {
@@ -462,18 +462,18 @@
   list-style: none;
 }
 .rewardsden_bootstrap dl {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .rewardsden_bootstrap dt,
 .rewardsden_bootstrap dd {
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap dt {
   font-weight: bold;
-  line-height: 17px;
+  line-height: 19px;
 }
 .rewardsden_bootstrap dd {
-  margin-left: 9px;
+  margin-left: 10px;
 }
 .rewardsden_bootstrap .dl-horizontal dt {
   float: left;
@@ -488,7 +488,7 @@
   margin-left: 130px;
 }
 .rewardsden_bootstrap hr {
-  margin: 18px 0;
+  margin: 20px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
@@ -512,18 +512,18 @@
 }
 .rewardsden_bootstrap blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 18px;
+  margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
 .rewardsden_bootstrap blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
-  line-height: 22.5px;
+  line-height: 25px;
 }
 .rewardsden_bootstrap blockquote small {
   display: block;
-  line-height: 18px;
+  line-height: 20px;
   color: #999999;
 }
 .rewardsden_bootstrap blockquote small:before {
@@ -548,9 +548,9 @@
 }
 .rewardsden_bootstrap address {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-style: normal;
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap small {
   font-size: 100%;
@@ -562,7 +562,7 @@
 .rewardsden_bootstrap pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 13px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -576,10 +576,10 @@
 }
 .rewardsden_bootstrap pre {
   display: block;
-  padding: 8.5px;
-  margin: 0 0 9px;
-  font-size: 12.025px;
-  line-height: 18px;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 12.950000000000001px;
+  line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -592,7 +592,7 @@
   border-radius: 4px;
 }
 .rewardsden_bootstrap pre.prettyprint {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .rewardsden_bootstrap pre code {
   padding: 0;
@@ -605,7 +605,7 @@
   overflow-y: scroll;
 }
 .rewardsden_bootstrap form {
-  margin: 0 0 18px;
+  margin: 0 0 20px;
 }
 .rewardsden_bootstrap fieldset {
   padding: 0;
@@ -616,15 +616,15 @@
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 27px;
-  font-size: 19.5px;
-  line-height: 36px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  line-height: 40px;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
 .rewardsden_bootstrap legend small {
-  font-size: 13.5px;
+  font-size: 15px;
   color: #999999;
 }
 .rewardsden_bootstrap label,
@@ -632,9 +632,9 @@
 .rewardsden_bootstrap button,
 .rewardsden_bootstrap select,
 .rewardsden_bootstrap textarea {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap input,
 .rewardsden_bootstrap button,
@@ -664,11 +664,11 @@
 .rewardsden_bootstrap input[type="color"],
 .rewardsden_bootstrap .uneditable-input {
   display: inline-block;
-  height: 18px;
+  height: 20px;
   padding: 4px;
   margin-bottom: 9px;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   color: #555555;
 }
 .rewardsden_bootstrap input,
@@ -1000,9 +1000,9 @@
   box-shadow: 0 0 6px #f8b9b7;
 }
 .rewardsden_bootstrap .form-actions {
-  padding: 17px 20px 18px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  padding: 19px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   *zoom: 1;
@@ -1040,7 +1040,7 @@
 }
 .rewardsden_bootstrap .help-block {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 .rewardsden_bootstrap .help-inline {
   display: inline-block;
@@ -1085,11 +1085,11 @@
 .rewardsden_bootstrap .input-append .add-on {
   display: inline-block;
   width: auto;
-  height: 18px;
+  height: 20px;
   min-width: 16px;
   padding: 4px 5px;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 20px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
   vertical-align: middle;
@@ -1230,14 +1230,14 @@
   margin-left: 0;
 }
 .rewardsden_bootstrap .control-group {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 .rewardsden_bootstrap legend + .control-group {
-  margin-top: 18px;
+  margin-top: 20px;
   -webkit-margin-top-collapse: separate;
 }
 .rewardsden_bootstrap .form-horizontal .control-group {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   *zoom: 1;
 }
 .rewardsden_bootstrap .form-horizontal .control-group:before,
@@ -1264,7 +1264,7 @@
   *padding-left: 160px;
 }
 .rewardsden_bootstrap .form-horizontal .help-block {
-  margin-top: 9px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 .rewardsden_bootstrap .form-horizontal .form-actions {
@@ -1278,12 +1278,12 @@
 }
 .rewardsden_bootstrap .table {
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .rewardsden_bootstrap .table th,
 .rewardsden_bootstrap .table td {
   padding: 8px;
-  line-height: 18px;
+  line-height: 20px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -1992,7 +1992,7 @@
 .rewardsden_bootstrap .dropdown-menu .divider {
   *width: 100%;
   height: 1px;
-  margin: 8px 1px;
+  margin: 9px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -2003,7 +2003,7 @@
   padding: 3px 15px;
   clear: both;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 20px;
   color: #333333;
   white-space: nowrap;
 }
@@ -2100,7 +2100,7 @@
   float: right;
   font-size: 20px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 20px;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
@@ -2128,8 +2128,8 @@
   *zoom: 1;
   padding: 4px 10px 4px;
   margin-bottom: 0;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   *line-height: 20px;
   color: #333333;
   text-align: center;
@@ -2219,7 +2219,7 @@
 }
 .rewardsden_bootstrap .btn-large {
   padding: 9px 14px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: normal;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2230,16 +2230,16 @@
 }
 .rewardsden_bootstrap .btn-small {
   padding: 5px 9px;
-  font-size: 11px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 18px;
 }
 .rewardsden_bootstrap .btn-small [class^="icon-"] {
   margin-top: -1px;
 }
 .rewardsden_bootstrap .btn-mini {
   padding: 2px 6px;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
 }
 .rewardsden_bootstrap .btn-primary,
 .rewardsden_bootstrap .btn-primary:hover,
@@ -2487,8 +2487,8 @@
   margin-left: 5px;
 }
 .rewardsden_bootstrap .btn-toolbar {
-  margin-top: 9px;
-  margin-bottom: 9px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .rewardsden_bootstrap .btn-toolbar .btn-group {
   display: inline-block;
@@ -2637,7 +2637,7 @@
 }
 .rewardsden_bootstrap .alert {
   padding: 8px 35px 8px 14px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -2684,7 +2684,7 @@
 }
 .rewardsden_bootstrap .nav {
   margin-left: 0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   list-style: none;
 }
 .rewardsden_bootstrap .nav > li > a {
@@ -2702,7 +2702,7 @@
   padding: 3px 15px;
   font-size: 11px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 20px;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -2736,7 +2736,7 @@
 .rewardsden_bootstrap .nav-list .divider {
   *width: 100%;
   height: 1px;
-  margin: 8px 1px;
+  margin: 9px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -2777,7 +2777,7 @@
 .rewardsden_bootstrap .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 18px;
+  line-height: 20px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -2990,7 +2990,7 @@
   *position: relative;
   *z-index: 2;
   overflow: visible;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .rewardsden_bootstrap .navbar-inner {
   min-height: 40px;
@@ -3185,7 +3185,7 @@
   display: inline-block;
   padding: 4px 10px 4px;
   margin: 5px 5px 6px;
-  line-height: 18px;
+  line-height: 20px;
 }
 .rewardsden_bootstrap .navbar .btn-group {
   margin: 0;
@@ -3334,7 +3334,7 @@
 }
 .rewardsden_bootstrap .breadcrumb {
   padding: 7px 14px;
-  margin: 0 0 18px;
+  margin: 0 0 20px;
   list-style: none;
   background-color: #fbfbfb;
   background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
@@ -3369,8 +3369,8 @@
   color: #333333;
 }
 .rewardsden_bootstrap .pagination {
-  height: 36px;
-  margin: 18px 0;
+  height: 40px;
+  margin: 20px 0;
 }
 .rewardsden_bootstrap .pagination ul {
   display: inline-block;
@@ -3393,7 +3393,7 @@
 .rewardsden_bootstrap .pagination a {
   float: left;
   padding: 0 14px;
-  line-height: 34px;
+  line-height: 38px;
   text-decoration: none;
   border: 1px solid #ddd;
   border-left-width: 0;
@@ -3432,7 +3432,7 @@
 }
 .rewardsden_bootstrap .pager {
   margin-left: 0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   list-style: none;
   text-align: center;
   *zoom: 1;
@@ -3767,7 +3767,7 @@
 }
 .rewardsden_bootstrap .thumbnails > li {
   float: left;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 .rewardsden_bootstrap .thumbnail {
@@ -3799,7 +3799,7 @@
 }
 .rewardsden_bootstrap .label,
 .rewardsden_bootstrap .badge {
-  font-size: 10.998px;
+  font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
   color: #ffffff;
@@ -4056,7 +4056,7 @@
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .rewardsden_bootstrap .accordion {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .rewardsden_bootstrap .accordion-group {
   margin-bottom: 2px;
@@ -4081,7 +4081,7 @@
 }
 .rewardsden_bootstrap .carousel {
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   line-height: 1;
 }
 .rewardsden_bootstrap .carousel-inner {
@@ -4193,7 +4193,7 @@
 .rewardsden_bootstrap .hero-unit p {
   font-size: 18px;
   font-weight: 200;
-  line-height: 27px;
+  line-height: 30px;
   color: inherit;
 }
 .rewardsden_bootstrap .pull-right {
@@ -4258,7 +4258,7 @@
   }
   .rewardsden_bootstrap .page-header h1 small {
     display: block;
-    line-height: 18px;
+    line-height: 20px;
   }
   .rewardsden_bootstrap input[type="checkbox"],
   .rewardsden_bootstrap input[type="radio"] {
@@ -4801,10 +4801,10 @@
     position: static;
   }
   .rewardsden_bootstrap .navbar-fixed-top {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
   }
   .rewardsden_bootstrap .navbar-fixed-bottom {
-    margin-top: 18px;
+    margin-top: 20px;
   }
   .rewardsden_bootstrap .navbar-fixed-top .navbar-inner,
   .rewardsden_bootstrap .navbar-fixed-bottom .navbar-inner {
@@ -4824,7 +4824,7 @@
   }
   .rewardsden_bootstrap .nav-collapse .nav {
     float: none;
-    margin: 0 0 9px;
+    margin: 0 0 10px;
   }
   .rewardsden_bootstrap .nav-collapse .nav > li {
     float: none;
@@ -4894,8 +4894,8 @@
   .rewardsden_bootstrap .nav-collapse .navbar-form,
   .rewardsden_bootstrap .nav-collapse .navbar-search {
     float: none;
-    padding: 9px 15px;
-    margin: 9px 0;
+    padding: 10px 15px;
+    margin: 10px 0;
     border-top: 1px solid #222222;
     border-bottom: 1px solid #222222;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
